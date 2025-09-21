@@ -84,7 +84,7 @@ const observer = new IntersectionObserver(function(entries) {
 // Observe elements for animation with performance optimization
 document.addEventListener('DOMContentLoaded', function() {
     // Use requestIdleCallback if available for better performance
-    const animateElements = document.querySelectorAll('.capability-card, .about-content, .contact-info, .contact-details, .value-item, .trust-item, .credential-item');
+    const animateElements = document.querySelectorAll('.capability-card, .about-content, .contact-info, .contact-details, .value-item');
     
     function observeElements() {
         animateElements.forEach(el => {
